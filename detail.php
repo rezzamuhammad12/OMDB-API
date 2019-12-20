@@ -48,6 +48,10 @@ $movie = json_decode($movie, true);
                         <li class="list-group-item">
                             <?= $movie['Plot'] ?>
                         </li>
+                        <li class="list-group-item">
+                            <a href="index.html" class="btn btn-success">Kembali</a>
+                            <!-- <a href="https://www.imdb.com/title/<?= $id ?>/" class="btn btn-primary">Menuju ke IMDB</a> -->
+                        </li>
                     </ul>
                 </div>
             </div>
